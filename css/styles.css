@@ -1,15 +1,15 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: var(--main-background);
+  background-color: var(--main-page-background);
 }
 :root {
   --title-color: #2e2f42;
   --background-color: #e5e5e5;
   --logo-color: #4d5ae5;
   --main-color: #434455;
-  --filter-background: #f4f4fd
-  --main-background: #ffffff;
+  --filter-background: #f4f4fd;
+  --main-page-background: #ffffff;
 }
 .list {
   list-style: none;
@@ -34,7 +34,7 @@ body {
   color: var(--logo-color);
 }
 .span-logo {
-  color: #f4f4fd;
+  color: var(--title-color);
 }
 .header-logo:hover,
 .header-logo:focus {
@@ -60,7 +60,7 @@ body {
   font-style: normal;
 }
 .header-email-phone {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -165,11 +165,14 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+.span-logo-footer {
+  color: #f4f4fd;
+}
 /*Portfolio*/
 .filter {
 }
 .filter-button {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
