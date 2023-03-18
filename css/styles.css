@@ -1,14 +1,15 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: var(--background-color);
+  background-color: var(--main-background);
 }
 :root {
   --title-color: #2e2f42;
   --background-color: #e5e5e5;
   --logo-color: #4d5ae5;
   --main-color: #434455;
-  --filter-background: #f4f4fd;
+  --filter-background: #f4f4fd
+  --main-background: #ffffff;
 }
 .list {
   list-style: none;
@@ -22,7 +23,7 @@ body {
 .header-navigation {
 }
 .header-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -33,7 +34,7 @@ body {
   color: var(--logo-color);
 }
 .span-logo {
-  color: var(--title-color);
+  color: #f4f4fd;
 }
 .header-logo:hover,
 .header-logo:focus {
@@ -54,6 +55,9 @@ body {
 .header-link:focus {
   color: #404bbf;
   text-decoration: underline;
+}
+.address {
+  font-style: normal;
 }
 .header-email-phone {
   font-family: "Roboto";
@@ -82,7 +86,7 @@ body {
   color: #ffffff;
 }
 .hero-button {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -123,7 +127,7 @@ body {
 .section-contacts {
   background-color: #f4f4fd;
 }
-.contacts-item {
+.contacts-items {
   background-color: #ffffff;
 }
 .contacts-title {
